@@ -2,9 +2,10 @@
 
 This will be the storage space for my first solidity project through my learning with Dapp University, Feedtheblock, and freecodecamp.org.
 
-This will start with the
-[Ultimate Solidity Tutorial: DeFi, Flash Loans, Hacking, NFTs & more!](https://youtu.be/eoQJ6nFZOcs)
-tutorial and this is the portion that uses hardhat.
+# Hardhat Section
+
+This is the code location for the part of the tutorial of
+[Ultimate Solidity Tutorial: DeFi, Flash Loans, Hacking, NFTs & more!](https://youtu.be/eoQJ6nFZOcs) that focuses on testing smart contracts with hardhat.
 
 # Sample Hardhat Project
 
