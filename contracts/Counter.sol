@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.0;
 
 contract Counter {
@@ -19,25 +20,25 @@ contract Counter {
         will interact with the Back End which are the Nodes
 
     */
-    
-    uint public count; // uint is 1, while int can be 1 or -1
+
+    uint256 public count; // uint is 1, while int can be 1 or -1
     //public is a modifier that allows the var to be read out the function (i.e. Counter function)
     string public name;
-    
 
-    constructor(string memory _name, uint _initialCount) { //Initializes the contract with values when it's compiled
+    constructor(string memory _name, uint256 _initialCount) {
+        //Initializes the contract with values when it's compiled
         name = _name; //use to have a set value but now value is set with constructor
         count = _initialCount; //Same as above
         //the naming convention is optional (ex. name & _name)
-        
+
         //variable default to local so they're only read
         //in the function.
     }
 
-    function increment() public returns(uint newCount) {
+    function increment() public returns (uint256 newCount) {
         //count = count + 1; this is old version
-        count ++; //another way to increment in solidity
-        
+        count++; //another way to increment in solidity
+
         //reads the count > adds 1 > sets as new value
 
         //can set functions with modifiers too
@@ -46,27 +47,25 @@ contract Counter {
         return count;
     }
 
-    function decrement() public returns(uint newCount) {
-        count --;
+    function decrement() public returns (uint256 newCount) {
+        count--;
         return count;
     }
 
-    function getCount() public view returns(uint) {
+    function getCount() public view returns (uint256) {
         //view is a modifier for function to read blockchain only
         return count;
     }
 
-    function getName() public view returns(string memory currentName) {
+    function getName() public view returns (string memory currentName) {
         return name;
     }
 
-    function setName(string memory _newName) public returns(string memory newName) {
-        name=_newName;
+    function setName(string memory _newName)
+        public
+        returns (string memory newName)
+    {
+        name = _newName;
         return name;
     }
-
-    
 }
-
-
-
