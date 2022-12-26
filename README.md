@@ -5,7 +5,7 @@ This will be the storage space for my first solidity project through my learning
 # Hardhat Section
 
 This is the code location for the part of the tutorial of
-[Ultimate Solidity Tutorial: DeFi, Flash Loans, Hacking, NFTs & more!](https://youtu.be/eoQJ6nFZOcs) that focuses on testing smart contracts with hardhat.
+[Ultimate Solidity Tutorial: DeFi, Flash Loans, Hacking, NFTs & more!](https://youtu.be/eoQJ6nFZOcs) that focuses on the NFT real estate escrow smart contracts. The completed code from Dapp University can be found [here](https://github.com/dappuniversity/solidity_tutorial).
 
 # Sample Hardhat Project
 
