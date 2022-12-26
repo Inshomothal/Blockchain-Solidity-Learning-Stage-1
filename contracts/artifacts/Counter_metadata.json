@@ -98,6 +98,25 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newName",
+						"type": "string"
+					}
+				],
+				"name": "setName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "newName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -128,10 +147,10 @@
 	},
 	"sources": {
 		"contracts/Counter.sol": {
-			"keccak256": "0x4fff8298c9eef099ae06a7bb7031b6690227c9470dac0ce46b292aca795368dd",
+			"keccak256": "0xd3ca7642c4bc4660ff3ea1b37966e8804e5ddb72b39a113037be26fac631611c",
 			"urls": [
-				"bzz-raw://d2cfd3d7cb21d2d848f1ee75eea3b90092714414fe41ab68346e3a8a80c458b8",
-				"dweb:/ipfs/QmVqqopeYybU5PZTyhRWJt8TP5VdvhbybNWA7FXeNCemFZ"
+				"bzz-raw://35dcbdd040fb1f50862437ec4c3bbb906562a8d89b2ffea65193fbb492278aa9",
+				"dweb:/ipfs/QmNgMDqvXMFaLLvmq9Zp8yXcdfL1cAij8aqQKBovd6WqqH"
 			]
 		}
 	},
